@@ -1,0 +1,120 @@
+/* Style sheet created by: Megan McDermott, November 9, 2017*/
+
+#container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contentabout {
+	display: inline-block;
+	border: 2px solid black;
+	margin-top: 2.25em;
+	padding: 1em;
+	background-color: #F2F2F2;
+
+}
+
+#content {
+	display: inline-block;
+}
+
+ 
+header {
+	text-align: center;
+	font-size: 2.0em;
+	font-family: "serif";
+	font-variant: small-caps;
+	font-stretch: ultra-expanded;
+ } 
+ 
+nav {
+	font-size: 1.25em;
+	font-family: "Serif"; 
+	text-align: center;
+	font-variant: small-caps; 
+}
+nav ul {
+	margin: 0;
+	padding-left: 0.50em;
+	padding-right: 0.50em;
+}
+
+nav li {
+	display: inline;
+	float: left;
+	border-radius: 0;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	width: 25%;
+	list-style-type: none;
+}
+
+nav li a {
+	color: #000000;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0.7em;
+}
+
+nav li a:active {
+	text-decoration: underline;
+}
+
+nav a.selected {
+	text-decoration: underline;
+}
+main a.selected {
+	text-decoration: underline;
+	color: white;
+}
+
+main li a:active{
+	text-decoration: underline;
+	color: white;
+}
+
+main {
+	font-family: "Serif";
+	text-decoration: none;
+	color: #000000;
+}
+main ul {
+	margin:0;
+	padding-left: 0.50em;
+	padding-right: 0.50em;
+	text-align: center;
+	font-family: "serif";
+	font-size: 1.25em;
+	font-variant: small-caps; 
+}
+
+main li {
+	display: inline;
+	float: left;
+	border-radius: 0;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	padding: 0;
+	width: 30%;
+	list-style-type: none;
+	background-color: black;
+}
+
+main li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	padding: 0.7em;
+}
+
+#contactinfo {
+	float: right;
+	font-size: 2em;
+	padding-right: 2em;
+}
+
+
+
